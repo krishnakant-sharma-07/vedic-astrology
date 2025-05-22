@@ -1,0 +1,67 @@
+/* App wrapper for layout */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #5096dc;
+}
+
+main.app-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #4a90e2;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  max-width: 720px;
+  width: 90%;
+  margin-top: 40px;
+}
+
+/* Header styling */
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styling */
+footer {
+  margin-top: auto;
+  background-color: #003366;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Form tweaks */
+form label {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  text-align: left;
+}
+
+select, button {
+  font-size: 1rem;
+}
+
+/* Result section */
+.result {
+  margin-top: 2rem;
+  background-color: #eaf4ff;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: left;
+}
+
+/* Error message */
+.error {
+  color: red;
+  margin-top: 1rem;
+}
